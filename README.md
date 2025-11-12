@@ -24,19 +24,6 @@ API mendukung fitur CRUD produk, menambahkan produk ke keranjang pesanan, dan me
 
 ---
 
-## Ilustrasi UI (dari requirement)
-
-![Order Cart Illustration](./docs/order-cart.png)
-
-- **Product List:**  
-  Pilih produk, isi quantity, klik **Add To Cart**  
-- **Order Cart:**  
-  Tampil customer, alamat, daftar produk dengan kolom `Name`, `Type`, `Price`, `Qty`, `Total`  
-  Total keseluruhan order dihitung otomatis dan ditampilkan  
-- Tombol **Place Order** menyimpan keranjang pesanan ke sistem
-
----
-
 ## Struktur API
 
 - `GET /api/products` : List produk (dengan pagination)  
